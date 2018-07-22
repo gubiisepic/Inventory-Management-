@@ -2,14 +2,21 @@
 
 1. Download Anaconda for python 3.6:
 Download link: https://www.anaconda.com/download/
-Tutorial: https://www.youtube.com/watch?v=dgjEUcccRwM
+  -Add to enviorment variable path: C:\Program Files (x86)\Anaconda3\Scripts
 
-2. Install pip gloabally and in anaconda:
-Global Installation: Should already have it
-Anaconda installation: http://www.puzzlr.org/install-packages-pip-conda-environment/
-
-3. Download Tensorflow Gpu:
-https://www.youtube.com/watch?v=r7-WPbx8VuY
+3. Download Cuda and Cudnn:
+https://www.youtube.com/watch?v=Ebo8BklTtmc
+  -Add Cuda bin to enviorment variable path: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin
+  -Add Cuda libnvvp to enviorment variable path: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\libnvvp
+  -Extract Cudnn Folder
+  -Move CUDA for Cudnn folder to ProgramFiles
+  -Add Cudnn to to enviorment variable path: C:\cuda\bin
+  - run this too: conda install -c anaconda msgpack-python
+ 
+4. Install Tensorflow GPU:
+conda create -n tensorflow
+activate tensorflow
+pip install --ignore-installed --upgrade tensorflow-gpu 
 
 4. Download Object Detection API:
 Tutorial: https://pythonprogramming.net/introduction-use-tensorflow-object-detection-api-tutorial/
