@@ -21,5 +21,6 @@ pip install --ignore-installed --upgrade tensorflow-gpu
 4. Download Object Detection API:
 Tutorial: https://pythonprogramming.net/introduction-use-tensorflow-object-detection-api-tutorial/
 More Videos: https://www.youtube.com/watch?v=COlbP62-B-U&list=PLQVvvaa0QuDcNK5GeCQnxYnSSaar2tpku
+  -use protobuf 3.4.0
 
 5. Download Code from Github into: models/research/object_detection
